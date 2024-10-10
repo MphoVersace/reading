@@ -54,7 +54,9 @@ Future Improvements
 	•	Backend Integration: Connect the form inputs (name, email, age) to a backend server for real-time form submission and data processing.
 	•	Enhanced Content: Add more sections related to different book genres or reading tips.
 	•	Improved UX: Implement form validation for better data collection from users.
-
+View Final Product
+Hosted/Deployed by SheCodes
+https://www.shecodes.io/cohorts/2103/projects/2429718
 Author
 
 Mpho Mtlomelo
