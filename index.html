@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading</title>
+    <style>
+        h1 {
+            font-size: 50px;
+    color: #3498db; 
+    text-align: center; 
+    font-family: inherit;
+    letter-spacing: 2px; 
+    margin: 20px 0; 
+    text-shadow: 2px 2px 5px rgba(13, 88, 138, 0.3); 
+    line-height: 1.5; 
+    background-color: #f4f4f4; 
+    padding: 10px; 
+    border-radius: 15px;
+   font-weight: 900;
+        }
+        h2 {
+    color: #4A90E2; 
+    font-size: 24px;  
+    padding: 10px;
+    font-family: inherit;
+    text-align: center;
+
+}
+p {
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+button {
+    font-family: inherit;
+    display: block;
+    margin: auto;
+    box-shadow: #3498db;
+    border-radius: 10px;
+    font-size: 18px;
+     background: linear-gradient(to bottom, rgba(13, 88, 138, 0.3), rgba(13, 88, 138, 0.6));
+     padding: 10px;
+     
+}
+img {
+    display: block;
+    margin: auto;
+     max-width: 1000px; 
+            max-height: 2000px; 
+            border-radius: 20px;
+            transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.05); 
+}
+body{
+    background: linear-gradient(to bottom, rgba(13, 88, 138, 0.3), rgba(13, 88, 138, 0.6));
+ 
+}
+.reading {
+    line-height: 15px;
+}
+.a {
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>The Power of Reading</h1>
+    <h2>A Journey of Growth and Inspiration</h2>
+    <img src="https://generated-assets.prod.myninja.ai/ee0f0817-3f96-464e-962e-2325ecdcb35a/7cfd81ed-cbc8-4c90-b5d9-a517131cbd8d_1.jpeg" alt="Girl reading">
+    <p> <strong class="reading">Reading</strong> is more than just a <em>hobby;</em> it’s a journey that broadens our horizons, deepens our understanding, and inspires us in countless ways. Whether you’re delving into Christian teachings, soaking in motivational words from an inspirational book, or getting lost in the world of stories, reading can transform your life. Why Reading Matters 
+Reading  fosters empathy, sharpens the mind, and builds a wealth of knowledge. <br>It’s a personal retreat that refreshes the soul, and for those like me who love Christianity, inspirational works, and stories, it’s also a way to grow closer to our values and beliefs.
+<hr>
+</p>
+
+  <div>
+    <a class="a" href="https://exclusivebooks.co.za/" target="_blank">
+        <button class="exploremore-button">Explore More!</button>
+    </a>
+</div>
+    <script>
+        document.querySelector(".exploremore-button").addEventListener("click", function() {
+            let firstName = prompt("What is your name?");
+            let email = prompt("What is your email?");
+            let nameEmail = firstName + " " + email;
+            alert(nameEmail);
+            let age = prompt("How old are you?");
+
+            if (age === "18") {
+                alert("You are cool");
+            } else if (parseInt(age) < 18) {
+                alert("Too bad for you");
+            }
+
+            alert("Thank you. We'll be in contact with you soon!");
+        });
+    </script>
+</body>
+</html>
